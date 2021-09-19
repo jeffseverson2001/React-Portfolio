@@ -6,7 +6,7 @@ document.body.classList.add("has-navbar-fixed-top");
 
 export default function Nav() {
     return (
-        <nav className="navbar is-fixed-top is-link" role="navigation">
+        <nav className="navbar is-moblie is-fixed-top is-link" role="navigation">
             <div className="navbar-menu is-active">
                 <div className="navbar-brand margin-left">
                     <FontAwesomeIcon icon={faBatteryFull} size='3x' />
