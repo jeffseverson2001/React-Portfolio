@@ -15,12 +15,12 @@ export default function Nav() {
                     <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
                 </div>
                 <div className="navbar-end">
-                    <a href="#home-page" className="navbar-item has-text-light">Homepage</a>
+                    <a href="/" className="navbar-item has-text-light">Homepage</a>
                     <a className="navbar-item has-text-light" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</a>
                     <a className="navbar-item has-text-light" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="#project-box" className="navbar-item has-text-light">Projects</a>
-                    <a href="./assets/images/Jeff_Severson_Resume.pdf" className="navbar-item has-text-light">Resume</a>
-                    <a href="#contact-info" className="navbar-item has-text-light">Contact</a>
+                    <a href="/projects" className="navbar-item has-text-light">Projects</a>
+                    <a href="/resume" className="navbar-item has-text-light">Resume</a>
+                    <a href="/contact" className="navbar-item has-text-light">Contact</a>
                 </div>
             </div>
         </nav>

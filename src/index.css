@@ -37,3 +37,12 @@ code {
   font-size: 30px;
 }
 
+.main-image {
+  display: block;
+  margin: 50px;
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 20px 10px 7px #eef3fc;
+  /* #3273dc; */
+}
