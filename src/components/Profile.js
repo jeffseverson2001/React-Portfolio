@@ -4,11 +4,11 @@ import { faBatteryQuarter } from '@fortawesome/free-solid-svg-icons'
 import { faBatteryHalf } from '@fortawesome/free-solid-svg-icons'
 import { faBatteryFull } from '@fortawesome/free-solid-svg-icons'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import passwordSiteImage from './images/password.jpg';
-import blogSiteImage from './images/blog.jpg';
-import movieSiteImage from './images/movie.jpg';
+import passwordSiteImage from '../images/password.jpg';
+import blogSiteImage from '../images/blog.jpg';
+import movieSiteImage from '../images/movie.jpg';
 
 
 export default function ProfileProjects() {
@@ -25,7 +25,7 @@ export default function ProfileProjects() {
                     <div className="center-sites"> Password Generator </div>
                 </div>
                 <div className="column is-one-quarter has-background-link-light m-5">
-                <FontAwesomeIcon icon={faBatteryHalf} size='2x' />
+                    <FontAwesomeIcon icon={faBatteryHalf} size='2x' />
                     <a href="https://jeffseverson2001-mvc-homework.herokuapp.com/">
                     <FontAwesomeIcon icon={faLink} size='2x' /></a>
                     <a href="https://github.com/jeffseverson2001/14-MVC-Blog">
@@ -34,7 +34,7 @@ export default function ProfileProjects() {
                     <div className="center-sites"> jBlog Site </div>
                 </div>
                 <div className="column is-one-quarter has-background-link-light m-5">
-                <FontAwesomeIcon icon={faBatteryFull} size='2x' />
+                    <FontAwesomeIcon icon={faBatteryFull} size='2x' />
                     <a href="https://jeffseverson2001.github.io/what-should-i-watch/">
                     <FontAwesomeIcon icon={faLink} size='2x' /></a>
                     <a href="https://github.com/jeffseverson2001/what-should-i-watch">
