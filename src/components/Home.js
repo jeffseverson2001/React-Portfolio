@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="content m-6">
                     <h2>The Web Developer</h2>
                     <p>
-                        I'm a web developer from Anoka, Minnesota and I have spent the last 10+ years as a backend PHP MYSQL
+                        I'm a web developer from Anoka, Minnesota and I have spent the last 10+ years as a backend PHP/MYSQL
                         developer.I decided that it was time to
                         make the leap to become a full stack developer, and am now certified in HTML, CSS and
                         jQuery/JavaScript.<br /><br />
