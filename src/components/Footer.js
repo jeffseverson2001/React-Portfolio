@@ -10,7 +10,7 @@ export default function Footer() {
         <footer className="footer has-background-link" id="contact-info">
             <div className="container is-fluid">
                 <div className="content has-text-centered is-size-6 white-text">
-                    <a href="/contact" className="white-text"> <FontAwesomeIcon icon={faPhoneSquareAlt} size='1x' />  763-220-0777 </a> 
+                    <a href="./contact" className="white-text"> <FontAwesomeIcon icon={faPhoneSquareAlt} size='1x' />  763-220-0777 </a> 
                     <br />
                     <a href="mailto:jeff@jefflizseverson.com" className="white-text"> <FontAwesomeIcon icon={faEnvelope} size='1x' />  jeff@jefflizseverson.com </a>
                     <br />

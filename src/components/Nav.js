@@ -34,12 +34,12 @@ export default function Nav() {
                         <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
                     </div>
                     <div className="navbar-end">
-                        <a href="/" className="navbar-item has-text-light">Homepage</a>
+                        <a href="./" className="navbar-item has-text-light">Homepage</a>
                         <a className="navbar-item has-text-light" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</a>
                         <a className="navbar-item has-text-light" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        <a href="/projects" className="navbar-item has-text-light">Projects</a>
-                        <a href="/resume" className="navbar-item has-text-light">Resume</a>
-                        <a href="/contact" className="navbar-item has-text-light">Contact</a>
+                        <a href="./projects" className="navbar-item has-text-light">Projects</a>
+                        <a href="./resume" className="navbar-item has-text-light">Resume</a>
+                        <a href="./contact" className="navbar-item has-text-light">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -53,7 +53,7 @@ export default function Nav() {
                         <FontAwesomeIcon icon={faBatteryFull} size='3x' />
                     </div>
                     <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
-                    <div href="/" role="button" className="navbar-burger" onClick={toggleBurger}>
+                    <div href="./" role="button" className="navbar-burger" onClick={toggleBurger}>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -62,12 +62,12 @@ export default function Nav() {
 
                 <div className={isActive ? "navbar-menu is-moblie is-link" : "navbar-menu is-moblie is-link is-active"}>
                     <div className="navbar-end">
-                        <a href="/" className="navbar-item">Homepage</a>
+                        <a href="./" className="navbar-item">Homepage</a>
                         <a className="navbar-item" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</a>
                         <a className="navbar-item" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        <a href="/projects" className="navbar-item">Projects</a>
-                        <a href="/resume" className="navbar-item">Resume</a>
-                        <a href="/contact" className="navbar-item">Contact</a>
+                        <a href="./projects" className="navbar-item">Projects</a>
+                        <a href="./resume" className="navbar-item">Resume</a>
+                        <a href="./contact" className="navbar-item">Contact</a>
                     </div>
                 </div>
             </nav>
