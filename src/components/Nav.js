@@ -35,7 +35,7 @@ export default function Nav() {
                         <FontAwesomeIcon icon={faBatteryFull} size='3x' />
                     </div>
                     <div className="navbar-start">
-                        <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson 3</div>
+                        <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
                     </div>
                     <div className="navbar-end">
                         <Link to="/" className="navbar-item has-text-light">Homepage</Link>
