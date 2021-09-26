@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBatteryFull } from '@fortawesome/free-solid-svg-icons'
 
 document.body.classList.add("has-navbar-fixed-top");
 
 export default function Nav() {
+    //  Check window size for mobile
     const [windowSize, setWindowSize] = useState({ width: 900, height: 500 });
 
     useEffect(() => {
@@ -16,6 +18,7 @@ export default function Nav() {
         });
     }, []);
 
+    //  Add toggle for Burger Menu  
     const [isActive, setActive] = useState("false");
 
     const toggleBurger = () => {
@@ -23,6 +26,7 @@ export default function Nav() {
     };
 
 
+//  Desktop Nav
     if (windowSize.width > 1050) {
         return (
             <nav className="navbar is-moblie is-fixed-top is-link" role="navigation">
@@ -34,18 +38,19 @@ export default function Nav() {
                         <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
                     </div>
                     <div className="navbar-end">
-                        <link href="./" className="navbar-item has-text-light" />Homepage
-                        <link className="navbar-item has-text-light" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer" />Github
-                        <link className="navbar-item has-text-light" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer" />LinkedIn
-                        <link href="./projects" className="navbar-item has-text-light" />Projects
-                        <link href="./resume" className="navbar-item has-text-light" />Resume
-                        <link href="./contact" className="navbar-item has-text-light" />Contact
+                        <Link to="/" className="navbar-item has-text-light">Homepage</Link>
+                        <Link className="navbar-item has-text-light" to="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</Link>
+                        <Link className="navbar-item has-text-light" to="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+                        <Link to="/projects" className="navbar-item has-text-light">Projects</Link>
+                        <Link to="/resume" className="navbar-item has-text-light">Resume</Link>
+                        <Link to="/contact" className="navbar-item has-text-light">Contact</Link>
                     </div>
                 </div>
             </nav>
         );
 
     } else {
+//  Mobile Nav        
         return (
             <nav className="navbar is-fixed-top is-link" role="navigation">
                 <div className="navbar-brand">
