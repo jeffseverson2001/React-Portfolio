@@ -38,7 +38,7 @@ export default function Nav() {
                         <div className="navbar-item nav-strong margin-left has-text-light">Jeff Severson</div>
                     </div>
                     <div className="navbar-end">
-                        <Link to="./" className="navbar-item has-text-light">Homepage</Link>
+                        <Link to="/React-Portfolio/" className="navbar-item has-text-light">Homepage</Link>
                         <a className="navbar-item has-text-light" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</a>
                         <a className="navbar-item has-text-light" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         <Link to="/projects" className="navbar-item has-text-light">Projects</Link>
@@ -67,7 +67,7 @@ export default function Nav() {
 
                 <div className={isActive ? "navbar-menu is-moblie is-link" : "navbar-menu is-moblie is-link is-active"}>
                     <div className="navbar-end">
-                        <Link to="./" className="navbar-item">Homepage</Link>
+                        <Link to="React-Portfolio/" className="navbar-item">Homepage</Link>
                         <a className="navbar-item" href="https://github.com/jeffseverson2001" target="_blank" rel="noopener noreferrer">Github</a>
                         <a className="navbar-item" href="https://www.linkedin.com/in/jeff-severson-880a02208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         <Link to="/projects" className="navbar-item">Projects</Link>
