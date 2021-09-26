@@ -1,3 +1,17 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+# React Portfolio
+
+Jeff Severson's React Profile
+
+##  Useage
+Published Github Site URL:
+https://github.com/jeffseverson2001/React-Portfolio
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
