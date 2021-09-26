@@ -10,7 +10,7 @@ import Footer from "./components/Footer.js";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <Nav />
       <Switch>
         <Route path="/projects">

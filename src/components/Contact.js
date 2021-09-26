@@ -16,7 +16,7 @@ export default function Contact() {
                 </p>
             </div>
             <div className="content has-text-left is-size-6 m-6">
-                <a href="/contact"><FontAwesomeIcon icon={faPhone} size='1x' /> 763-220-0777</a>
+                <a href="."><FontAwesomeIcon icon={faPhone} size='1x' /> 763-220-0777</a>
                 <br />
                 <a href="mailto:jeff@jefflizseverson.com"><FontAwesomeIcon icon={faEnvelope} size='1x' /> jeff@jefflizseverson.com</a>
                 <br />
