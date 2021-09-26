@@ -13,16 +13,16 @@ export default function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route path="/React-Portfolio/projects">
+        <Route path="/projects">
           <Profile />
         </Route>
-        <Route path="/React-Portfolio/resume">
+        <Route path="/resume">
           <Resume />
         </Route>
-        <Route path="/React-Portfolio/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/React-Portfolio/">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
