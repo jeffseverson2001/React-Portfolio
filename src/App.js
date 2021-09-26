@@ -13,16 +13,16 @@ export default function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route path="./projects">
+        <Route path="projects">
           <Profile />
         </Route>
-        <Route path="./resume">
+        <Route path="resume">
           <Resume />
         </Route>
-        <Route path="./contact">
+        <Route path="contact">
           <Contact />
         </Route>
-        <Route path="./">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
