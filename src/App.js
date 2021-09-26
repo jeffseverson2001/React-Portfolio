@@ -5,6 +5,7 @@ import Home from "./components/Home.js";
 import Profile from './components/Profile.js';
 import Resume from "./components/Resume.js";
 import Contact from "./components/Contact.js";
+import Footer from "./components/Footer.js";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 };
