@@ -6,7 +6,7 @@ Jeff Severson's React Profile
 
 ##  Useage
 Published Github Site URL:
-[Site Link](https://github.com/jeffseverson2001/React-Portfolio)
+[Site Link](https://jeffseverson2001.github.io/React-Portfolio/)
 
 ![alt React Home Page](public/react_image.jpg)
 
